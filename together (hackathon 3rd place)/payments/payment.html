@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slide Navbar</title>
+    <meta content="charset=utf-8" />
+
+    <title>Medicard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="signstyle.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="main" style="right: 500px;">
+        <input type="checkbox" id="chk" aria-hidden="true">
+
+        <div class="signup">
+            <form>
+                <label for="chk" aria-hidden="true">Pay</label>
+                <input type="text" name="cin" placeholder="CIN number" required="" maxlength="8">
+                <input type="text" name="nom" placeholder="Name" required="">
+                <input type="text" name="prebom" placeholder="Last name" required="">
+                <input type="tel" name="numtel" placeholder="Phone" required="" maxlength="8">
+                <center><h4>Card Expiry date:</h4></center>
+                <input type="date" name="bd" required="mm/yyyy">
+                <input type="Card's 13 Digits PIN" name="mdp" placeholder="Card's 13 Digits PIN" required="">
+                <input type="RE-Enter Card's 13 Digits PIN" name="cmdp" placeholder="RE-Enter Card's 13 Digits PIN" required="">
+
+
+                <button>Pay</button>
+                
+            </form>
+            <a href="http://localhost:5000"><button>Cancel</button></a>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
